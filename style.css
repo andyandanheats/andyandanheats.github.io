@@ -1,0 +1,33 @@
+body
+{
+	background-image: url("hello.gif");
+	background-repeat: repeat;
+}
+
+p
+{
+	color: white; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+	color: gold;
+	text-align: center;
+	text-shadow: 3px 3px 10px black;
+}
+
+.content {
+	max-width: 500px;
+	margin: auto;
+	padding: 10px;
+	border: 5px solid gray;
+	box-shadow: 5px 10px orange;
+	
+	background-image: url("palm.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	word-wrap: break-word;
+}
